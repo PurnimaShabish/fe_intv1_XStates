@@ -1,0 +1,35 @@
+/* box{
+    margin: 10px;
+} */
+
+.dropdown-container{
+    margin: 20px;
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+select{
+    width: 10rem;
+    height : 2rem;
+    /* width: auto;
+    height: auto; */
+}
+
+.introTxt{
+    colour:black;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.cityName{
+    colour:black;
+    font-size: large;
+    font-weight: bold;
+}
+
+.stateCtry{
+    color: grey;
+    font-size: medium;
+
+}
