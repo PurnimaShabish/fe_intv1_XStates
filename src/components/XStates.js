@@ -128,12 +128,10 @@ const XStates = () => {
             <br />
         </div>
         <Box>
-        {cityName? 
-            (<p style={{ display: 'block', marginTop: '10px'}}>
+        {cityName? (<>
                 <span className="introTxt">You selected </span>
                 <span className="cityName">{cityName},</span>
-                <span className="stateCtry">{stateName},{countryName}</span>
-            </p>)
+                <span className="stateCtry">{stateName},{countryName}</span> </>)
             :null}
         </Box>
         </>
