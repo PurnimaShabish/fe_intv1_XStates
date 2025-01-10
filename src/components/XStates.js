@@ -127,13 +127,9 @@ const XStates = () => {
             </Box>
             <br />
         </div>
-        <Box>
-        {cityName? (<>
-                <span className="introTxt">You selected </span>
-                <span className="cityName">{cityName},</span>
-                <span className="stateCtry">{stateName},{countryName}</span> </>)
+        {cityName? (<p>
+                <span className="introTxt">You selected </span><span className="cityName">{cityName},</span><span className="stateCtry">{stateName},{countryName}</span></p>)
             :null}
-        </Box>
         </>
     )
 
