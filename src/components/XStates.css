@@ -33,3 +33,7 @@ select{
     font-size: medium;
 
 }
+.inline-content {
+     display: inline-block;
+     margin:2px; 
+}
